@@ -1,0 +1,46 @@
+Sistema Monitron
+1-Pagina de login do adm e cliente
+login adm
+-matricula
+-senha
+login do cliente
+-cpf
+-senha
+
+-cadastrar administrador
+id_adm
+responsavel
+matricula
+senha
+
+2-Pagina de administrador
+#cadastrar cliente
+#consultar cliente (monitorar status de todos os sistemas do cliente)
+
+
+-cadastrar novos clientes (+)
+id_cliente
+nome
+email
+cpf/cnpj
+endereco
+cep
+cidade
+estado
+
+-adicionar ao novo cliente Sistema (+)
+id_sistema
+nome (reservatorio_up/reservatorio_down)
+volume_parcial
+
+-adicionar ao novo Sistema Bombas (+)
+id_bomba
+codigo
+data de validade
+
+-
+Banco SQL
+
+Banco: Monitron
+tabela: cliente
+id_cliente
